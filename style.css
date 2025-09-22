@@ -31,6 +31,8 @@ body {
 .nav-button { background: #E58A00; border: none; padding: 10px 20px; border-radius: 5px; color: white; cursor: pointer; font-weight: bold; transition: background-color 0.3s ease; }
 .nav-button:hover { background-color: #FF9900; }
 .nav-button.active { background-color: #FFAA1D; box-shadow: 0 0 10px rgba(255, 153, 0, 0.5); }
+#log {border-radius: 100px; color: #1f1f1f;}
+#log:hover{color: white;}
 
 /* ------------------- NOVO: CARROSSEL DE DESTAQUES ------------------- */
 .slideshow-container {
@@ -782,4 +784,5 @@ body.login-page {
         width: 100%;
         padding: 15px;
     }
+
 }
